@@ -1,11 +1,7 @@
-import React from 'react';
+import DataTable from "../../components/DataTable";
 
 function Home() {
-    return (
-        <div>
-            
-        </div>
-    );
+  return <DataTable />;
 }
 
 export default Home;

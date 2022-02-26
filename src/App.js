@@ -27,7 +27,18 @@ function App() {
               </div>
             }
           />
-          <Route path="/" element={<Home />} />
+          <Route
+            path="/"
+            element={
+              <div>
+                <link
+                  rel="stylesheet"
+                  href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+                />
+                <Home />
+              </div>
+            }
+          />
         </Routes>
       </div>
     </Router>
