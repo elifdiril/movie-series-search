@@ -1,6 +1,7 @@
 import BootstrapTable from "react-bootstrap-table-next";
 import paginationFactory from "react-bootstrap-table2-paginator";
 import { useNavigate } from "react-router-dom";
+import "./dt.scss";
 
 function DataTable({ data }) {
   const navigate = useNavigate();
@@ -36,8 +37,8 @@ function DataTable({ data }) {
   };
 
   return (
-    <>
-      {data.length > 0 && (
+    <div className="dt">
+      {data && data.length > 0 && (
         <BootstrapTable
           keyField="imdbID"
           data={data}
@@ -47,7 +48,7 @@ function DataTable({ data }) {
           rowEvents={rowEvents}
         />
       )}
-    </>
+    </div>
   );
 }
 

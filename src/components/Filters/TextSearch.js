@@ -11,18 +11,16 @@ function TextSearch() {
   };
 
   return (
-    <div>
-      <Input
-        id="searchTitle"
-        name="searchTitle"
-        value={filters.text}
-        placeholder="Search Title"
-        type="text"
-        onChange={(e) => {
-          onChangeHandler(e.target.value);
-        }}
-      />
-    </div>
+    <Input
+      id="searchTitle"
+      name="searchTitle"
+      value={filters.text}
+      placeholder="Search Title"
+      type="text"
+      onChange={(e) => {
+        onChangeHandler(e.target.value);
+      }}
+    />
   );
 }
 

@@ -11,23 +11,21 @@ function TypeSearch() {
   };
 
   return (
-    <div>
-      <Input
-        id="typeSelect"
-        name="selectType"
-        placeholder="Select Type"
-        type="select"
-        value={filters.type}
-        onChange={(e) => {
-          onChangeSelection(e.target.value);
-        }}
-      >
-        <option label=" "></option>
-        <option value="movie">Movie</option>
-        <option value="series">Series</option>
-        <option value="episode">Episode</option>
-      </Input>
-    </div>
+    <Input
+      id="typeSelect"
+      name="selectType"
+      placeholder="Select Type"
+      type="select"
+      value={filters.type}
+      onChange={(e) => {
+        onChangeSelection(e.target.value);
+      }}
+    >
+      <option label=" "></option>
+      <option value="movie">Movie</option>
+      <option value="series">Series</option>
+      <option value="episode">Episode</option>
+    </Input>
   );
 }
 

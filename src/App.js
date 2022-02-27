@@ -18,7 +18,7 @@ function App() {
           <Route
             path="/details/:id"
             element={
-              <div>
+              <div className="details">
                 <link
                   rel="stylesheet"
                   href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"

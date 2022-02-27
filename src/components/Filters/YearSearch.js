@@ -11,18 +11,16 @@ function YearSearch() {
   };
 
   return (
-    <div>
-      <Input
-        id="searchYear"
-        name="searchYear"
-        placeholder="Search Year"
-        type="search"
-        onChange={(e) => {
-          onChangeHandler(e.target.value);
-        }}
-        value={filters.year}
-      />
-    </div>
+    <Input
+      id="searchYear"
+      name="searchYear"
+      placeholder="Search Year"
+      type="search"
+      onChange={(e) => {
+        onChangeHandler(e.target.value);
+      }}
+      value={filters.year}
+    />
   );
 }
 
