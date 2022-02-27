@@ -1,6 +1,7 @@
 # movie-series-search
 Movie and series search project with OMDb api
 
+## [Live on Netlify](https://search-movie-series.netlify.app/)
 
 ## In order to run this project in your local environment
 
