@@ -34,7 +34,8 @@ function Details() {
           <br />
           Genre: {details.Genre}
           <br />
-          Runtime: {details.Runtime} {"  "}
+          Runtime: {details.Runtime} 
+          <br />
           IMDB: {details.imdbRating}
         </CardSubtitle>
         <CardText>{details.Plot}</CardText>

@@ -5,8 +5,10 @@
 .app-ul {
   list-style-type: none;
   display: flex;
-  justify-content: flex-end;
   padding: 20px;
+  background-color: rgb(255, 255, 255, 0.95);
+  border-top-right-radius: 10%;
+  border-top-left-radius: 10%;
 }
 
 .app-li {
@@ -14,8 +16,16 @@
   font-size: x-large;
 }
 
+.app-li a{
+  color: black;
+}
+
+.app-li a:hover{
+  color: rgba(0, 0, 0, 0.5);
+}
+
 .details {
-  max-width: 90%;
+  max-width: 100%;
   height: auto;
   display: flex;
 }

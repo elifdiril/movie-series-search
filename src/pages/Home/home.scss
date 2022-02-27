@@ -1,4 +1,15 @@
-.home .filter {
+.home {
+  background-color: rgb(255, 255, 255, 0.95);
+  border-bottom-left-radius: 2%;
+  border-bottom-right-radius: 2%;
+}
+
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.buttons > * {
+  margin-right: 2%;
   width: 8%;
-  margin-left: 90%;
 }
