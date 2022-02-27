@@ -6,6 +6,7 @@ import "react-bootstrap-table-next/dist/react-bootstrap-table2.min.css";
 import "react-bootstrap-table2-paginator/dist/react-bootstrap-table2-paginator.min.css";
 import { Provider } from "react-redux";
 import store from "./store";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(

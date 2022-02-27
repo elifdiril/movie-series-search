@@ -13,7 +13,7 @@ const MovieReducer = (state = initialState, action) => {
     case FILTER_MOVIES:
       state = {
         ...state,
-        filters: { ...action.filters, text: action.payload },
+        filters: { ...action.payload },
       };
       break;
 

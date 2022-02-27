@@ -1,9 +1,8 @@
 import { FILTER_MOVIES } from "./actionTypes";
 
-export const setFilterMovies = (filter, filters) => {
+export const setFilterMovies = (filters) => {
   return {
     type: FILTER_MOVIES,
-    payload: filter,
-    filters: filters,
+    payload: filters,
   };
 };
