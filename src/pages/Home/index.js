@@ -21,7 +21,7 @@ function Home() {
       .then((response) => {
         setData(response.Search);
       });
-  }, [url, JSON.stringify(filters)]);
+  }, [url]);
 
   const onFilterClick = () => {
     setUrl(filterMoviesHelper(filters));
